@@ -1,0 +1,88 @@
+.todo-title {
+    /* Gradient color */
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.todo-container{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    border: 3px solid #9e9d9d;
+    border-radius: 3px;
+}
+
+
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    /* Logo rotate liên tục */
+    animation: App-logo-spin infinite 20s linear;
+    margin-left: 40%;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.addBtn{
+    background-color: rgb(73, 136, 230);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.inputAdd{
+    max-width: 300px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #9e9d9d;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 150px;
+
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.todo-item button{
+    background-color: #f44336;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 4px;
+}
